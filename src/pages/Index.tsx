@@ -17,7 +17,7 @@ const NEWS_ITEMS = [
   {
     id: 2,
     category: "Ministry",
-    title: "Grace Wave Launches Youth Gospel Mentorship Program",
+    title: "24.7PraiseRadio Launches Youth Gospel Mentorship Program",
     excerpt: "A new initiative connecting seasoned gospel artists with young aspiring musicians across the nation.",
     date: "May 18, 2026",
     readTime: "4 min read",
@@ -126,10 +126,10 @@ export default function Index() {
               </div>
               <div>
                 <span className="font-playfair font-bold text-lg leading-none block" style={{ color: "var(--gospel-gold)" }}>
-                  Grace Wave
+                  24.7PraiseRadio
                 </span>
                 <span className="text-xs uppercase tracking-widest block" style={{ color: "var(--gospel-text)", opacity: 0.6 }}>
-                  Gospel Radio
+                  Your Global Inspiration Station
                 </span>
               </div>
             </div>
@@ -196,7 +196,7 @@ export default function Index() {
           <div className="animate-fade-in" style={{ animationDelay: "0.1s", animationFillMode: "both" }}>
             <span className="inline-block text-xs uppercase tracking-[0.3em] font-semibold mb-6 px-4 py-2 rounded-full border"
               style={{ color: "var(--gospel-gold)", borderColor: "rgba(245,166,35,0.3)", background: "rgba(245,166,35,0.08)" }}>
-              ✦ Broadcasting His Glory ✦
+              ✦ Your Global Inspiration Station ✦
             </span>
           </div>
 
@@ -257,7 +257,7 @@ export default function Index() {
               <div className="w-2 h-2 rounded-full live-dot" style={{ background: "#ef4444" }} />
               <span className="text-xs uppercase tracking-widest font-bold" style={{ color: "#ef4444" }}>On Air</span>
               <span className="text-sm ml-2" style={{ color: "var(--gospel-text)", opacity: 0.7 }}>
-                Sunday Night Live with Bishop T. Williams
+                Sunday Night Live with Bishop T. Williams — 24.7PraiseRadio
               </span>
             </div>
 
@@ -277,7 +277,7 @@ export default function Index() {
                 <h3 className="font-playfair text-2xl font-bold mb-1" style={{ color: "var(--gospel-cream)" }}>
                   Sunday Night Live
                 </h3>
-                <p className="text-sm" style={{ color: "var(--gospel-gold)" }}>Bishop T. Williams • Grace Wave Radio</p>
+                <p className="text-sm" style={{ color: "var(--gospel-gold)" }}>Bishop T. Williams • 24.7PraiseRadio</p>
               </div>
 
               <div className="flex items-center justify-center gap-6 mb-8">
@@ -480,10 +480,10 @@ export default function Index() {
                 Our Story
               </span>
               <h2 className="font-playfair text-4xl md:text-5xl font-bold mt-3 mb-6" style={{ color: "var(--gospel-cream)" }}>
-                About Grace Wave Radio
+                About 24.7PraiseRadio
               </h2>
               <p className="text-base leading-relaxed mb-6" style={{ color: "var(--gospel-text)", opacity: 0.75 }}>
-                Grace Wave Radio was founded on the belief that the gospel has the power to transform lives.
+                24.7PraiseRadio was founded on the belief that the gospel has the power to transform lives.
                 We broadcast 24 hours a day, 7 days a week — delivering Spirit-filled music, powerful sermons,
                 and uplifting news to communities across the nation and around the world.
               </p>
@@ -658,7 +658,7 @@ export default function Index() {
                 Contact & Support
               </h2>
               <p className="text-base leading-relaxed mb-8" style={{ color: "var(--gospel-text)", opacity: 0.7 }}>
-                Have a prayer request, ministry inquiry, or want to partner with Grace Wave Radio?
+                Have a prayer request, ministry inquiry, or want to partner with 24.7PraiseRadio?
                 We'd love to hear from you.
               </p>
               <div className="space-y-4">
@@ -738,10 +738,10 @@ export default function Index() {
               </div>
               <div>
                 <span className="font-playfair font-bold text-lg block leading-none" style={{ color: "var(--gospel-gold)" }}>
-                  Grace Wave Radio
+                  24.7PraiseRadio
                 </span>
                 <span className="text-xs opacity-50 block" style={{ color: "var(--gospel-text)" }}>
-                  Broadcasting His Glory
+                  Your Global Inspiration Station
                 </span>
               </div>
             </div>
@@ -771,7 +771,7 @@ export default function Index() {
           </div>
           <div className="mt-8 pt-6 border-t text-center text-xs"
             style={{ borderColor: "rgba(255,255,255,0.06)", color: "var(--gospel-text)", opacity: 0.35 }}>
-            © 2026 Grace Wave Radio. All rights reserved. Broadcasting His love to the world.
+            © 2026 24.7PraiseRadio. All rights reserved. Your Global Inspiration Station.
           </div>
         </div>
       </footer>

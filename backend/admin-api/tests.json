@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "name": "Login with wrong password returns 401",
+      "method": "POST",
+      "path": "/?route=login",
+      "body": {"username": "admin", "password": "wrongpass"},
+      "expectedStatus": 401
+    },
+    {
+      "name": "Access news without token returns 401",
+      "method": "GET",
+      "path": "/?route=news",
+      "expectedStatus": 401
+    }
+  ]
+}

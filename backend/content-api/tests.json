@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "Get news returns list",
+      "method": "GET",
+      "path": "/?route=news",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Get programs returns list",
+      "method": "GET",
+      "path": "/?route=programs",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Get on-demand returns list",
+      "method": "GET",
+      "path": "/?route=on-demand",
+      "expectedStatus": 200
+    }
+  ]
+}
